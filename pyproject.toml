@@ -1,0 +1,14 @@
+[project]
+name = "location-text-structurizer"
+version = "0.1.0"
+description = "Convert unstructured location text to structured format"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "llama-cpp-python>=0.3.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.6.8",
+]
